@@ -24,4 +24,6 @@ resultButton.addEventListener('click', () => {
       result = firstNumber / secondNumber;
       break;
   }
+
+  output.innerHTML = result;
 });

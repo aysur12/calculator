@@ -18,9 +18,12 @@ resultButton.addEventListener('click', () => {
       break;
     case '-':
       result = firstNumber - secondNumber;
+      break;
     case '*':
       result = firstNumber * secondNumber;
+      break;
     case '/':
       result = firstNumber / secondNumber;
+      break;
   }
 });

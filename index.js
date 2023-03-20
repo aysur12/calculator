@@ -11,4 +11,10 @@ resultButton.addEventListener('click', () => {
   secondNumber = parseInt(secondInput.value, 10);
 
   let result = null;
+
+  switch (operationsSelect.value) {
+    case '+':
+      result = firstNumber + secondNumber;
+      break;
+  }
 });

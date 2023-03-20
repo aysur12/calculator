@@ -54,3 +54,18 @@ body {
   font-size: 20px;
   font-weight: 600;
 }
+
+.calculator__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  color: #fffffe;
+  background-color: #e16162;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}

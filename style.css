@@ -62,12 +62,18 @@ body {
   width: 100%;
   padding: 10px;
   color: #fffffe;
-  background-color: #e16162;
+  background-color: #f9bc60;
   font-size: 20px;
   border: none;
   border-radius: 10px;
+  outline: none;
   cursor: pointer;
   transition-duration: 0.2s;
+}
+
+.calculator__button:hover,
+.calculator__button:focus {
+  background-color: #e16162;
 }
 
 .calculator__output {

@@ -22,3 +22,21 @@ body {
   padding: 20px;
   background-color: #abd1c6;
 }
+
+.calculator__input {
+  width: 100%;
+  padding: 10px;
+  color: #e8e4e6;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #004643;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.calculator__input:hover,
+.calculator__input:focus {
+  color: #004643;
+  background-color: #e8e4e6;
+}

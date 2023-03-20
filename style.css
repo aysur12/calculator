@@ -13,6 +13,12 @@ body {
   scroll-behavior: smooth;
 }
 
+.title {
+  color: #fffffe;
+  text-align: center;
+  font-size: 40px;
+}
+
 .calculator {
   display: flex;
   flex-direction: column;

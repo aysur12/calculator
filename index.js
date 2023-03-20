@@ -10,19 +10,21 @@ resultButton.addEventListener('click', () => {
 
   let result = null;
 
-  switch (operationsSelect.value) {
-    case '+':
-      result = firstNumber + secondNumber;
-      break;
-    case '-':
-      result = firstNumber - secondNumber;
-      break;
-    case '*':
-      result = firstNumber * secondNumber;
-      break;
-    case '/':
-      result = firstNumber / secondNumber;
-      break;
+  if (firstInput.value && secondInput.value) {
+    switch (operationsSelect.value) {
+      case '+':
+        result = firstNumber + secondNumber;
+        break;
+      case '-':
+        result = firstNumber - secondNumber;
+        break;
+      case '*':
+        result = firstNumber * secondNumber;
+        break;
+      case '/':
+        result = firstNumber / secondNumber;
+        break;
+    }
   }
 
   output.innerHTML = result;
